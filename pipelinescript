@@ -1,4 +1,0 @@
-node {
-  stage 'Run JMeter Test'
-  sh '/home/perfomatix/Downloads/apache-jmeter-5.4.3/jmeter.sh -n -t /home/perfomatix/Downloads/shift-left.jmx -Jusers=3 -l test.jtl'
-}
